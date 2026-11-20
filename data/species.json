@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cantharellus-cibarius",
+    "name": "Chanterelle",
+    "turkish_name": "Sarı Şapkalı Mantar",
+    "season": "Summer–Autumn",
+    "edibility": "Choice edible",
+    "habitat": "Broadleaf and conifer forests, often near oak and beech",
+    "description": "One of the most prized edible mushrooms in the world. Golden-yellow, funnel-shaped cap with forking false gills running down the stem. Fruity, apricot-like aroma.",
+    "identification_tips": [
+      "Cap is golden to egg-yolk yellow, wavy and irregular",
+      "False gills: forked ridges, not true gills — they run down the stem",
+      "Stem is solid and the same colour as the cap",
+      "Smells faintly of apricots"
+    ],
+    "lookalikes": [
+      {
+        "name": "Jack-o'-lantern mushroom (Omphalotus olearius)",
+        "danger": "Toxic",
+        "difference": "Has true gills (not forking ridges), grows in clusters at the base of trees, glows faintly in the dark"
+      }
+    ],
+    "safety_warning": "Always confirm identification with an expert before consuming. Never eat a mushroom you are not 100% certain about.",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cantharellus_cibarius"
+      }
+    ]
+  },
+  {
+    "id": "boletus-edulis",
+    "name": "Porcini",
+    "turkish_name": "Kral Mantarı",
+    "season": "Summer–Autumn",
+    "edibility": "Choice edible",
+    "habitat": "Conifer and broadleaf forests, often near pine, spruce, and oak",
+    "description": "Known as the king of mushrooms. Large, brown cap with a thick white to brown stem covered in a fine net-like pattern. White flesh that does not change colour when cut.",
+    "identification_tips": [
+      "Cap is brown, smooth and rounded like a bun",
+      "Pores underneath (not gills) — white when young, turning yellowish with age",
+      "Stem is thick and bulbous with a white net pattern",
+      "Flesh stays white when cut — does not blue or discolour"
+    ],
+    "lookalikes": [
+      {
+        "name": "Satan's bolete (Rubroboletus satanas)",
+        "danger": "Toxic",
+        "difference": "Has red pores underneath the cap and the flesh turns blue immediately when cut"
+      }
+    ],
+    "safety_warning": "Always confirm identification with an expert before consuming. Never eat a mushroom you are not 100% certain about.",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Boletus_edulis"
+      }
+    ]
+  },
+  {
+    "id": "marasmius-oreades",
+    "name": "Fairy Ring Mushroom",
+    "turkish_name": "Peri Halkası Mantarı",
+    "season": "Spring–Autumn",
+    "edibility": "Edible",
+    "habitat": "Lawns, meadows, and grassy areas — often growing in rings or arcs",
+    "description": "A small but tasty mushroom that grows in distinctive fairy rings on grass. Tan to buff cap that flattens with age. Tough, wiry stem. Dries well and keeps its flavour.",
+    "identification_tips": [
+      "Grows in rings or arcs on grass or meadows",
+      "Cap is tan to buff, bell-shaped when young, flattening with age",
+      "Gills are widely spaced and do not run down the stem",
+      "Stem is very tough and wiry — hard to snap",
+      "Smells pleasant, faintly of almonds"
+    ],
+    "lookalikes": [
+      {
+        "name": "Fool's funnel (Clitocybe rivulosa)",
+        "danger": "Toxic",
+        "difference": "Has crowded gills running down the stem and no tough wiry stem. Often grows alongside fairy ring mushrooms — be very careful."
+      }
+    ],
+    "safety_warning": "Always confirm identification with an expert before consuming. Never eat a mushroom you are not 100% certain about.",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Marasmius_oreades"
+      }
+    ]
+  }
+]

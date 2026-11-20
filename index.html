@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Melky</title>
+  <link rel="stylesheet" href="src/css/main.css" />
+</head>
+<body>
+
+  <!-- Top navigation bar -->
+  <nav class="navbar">
+    <span class="navbar-brand">🍄 Melky</span>
+  </nav>
+
+  <!-- Main content wrapper -->
+  <div class="content-wrap">
+
+    <!-- SPECIES GUIDE PAGE -->
+    <div class="page active" id="page-species">
+
+      <!-- Safety warning -->
+      <div class="safety-banner">
+        ⚠️ <strong>Safety warning:</strong> Never consume a wild mushroom without
+        confirmation from an experienced expert. This guide is for educational
+        purposes only.
+      </div>
+
+      <!-- Search bar -->
+      <input
+        type="text"
+        class="search-bar"
+        id="species-search"
+        placeholder="Search mushrooms…"
+      />
+
+      <!-- Cards grid — filled by JavaScript -->
+      <div class="species-grid" id="species-grid"></div>
+
+      <!-- Detail view — hidden until a card is clicked -->
+      <div id="species-detail" style="display:none;">
+        <button class="detail-back" id="detail-back">← Back to guide</button>
+        <div class="detail-card" id="detail-content"></div>
+      </div>
+
+    </div>
+
+    <!-- MAP PAGE (placeholder) -->
+    <div class="page" id="page-map">
+      <p style="color: var(--text-muted); padding-top: 40px; text-align:center;">
+        Map coming in Step 5 🗺️
+      </p>
+    </div>
+
+    <!-- UPDATES PAGE (placeholder) -->
+    <div class="page" id="page-updates">
+      <p style="color: var(--text-muted); padding-top: 40px; text-align:center;">
+        Local updates coming soon 📍
+      </p>
+    </div>
+
+    <!-- PROFILE PAGE (placeholder) -->
+    <div class="page" id="page-profile">
+      <p style="color: var(--text-muted); padding-top: 40px; text-align:center;">
+        Profile coming soon 👤
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Bottom navigation bar -->
+  <nav class="bottom-nav">
+    <button class="active" onclick="showPage('species', this)">
+      <span class="icon">🍄</span>
+      <span>Guide</span>
+    </button>
+    <button onclick="showPage('map', this)">
+      <span class="icon">🗺️</span>
+      <span>Map</span>
+    </button>
+    <button onclick="showPage('updates', this)">
+      <span class="icon">📍</span>
+      <span>Updates</span>
+    </button>
+    <button onclick="showPage('profile', this)">
+      <span class="icon">👤</span>
+      <span>Profile</span>
+    </button>
+  </nav>
+
+  <!-- JavaScript -->
+  <script src="src/js/species.js"></script>
+  <script src="src/js/main.js"></script>
+
+</body>
+</html>
